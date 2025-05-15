@@ -1,23 +1,28 @@
 # 🌎 hello-world
-Apenas um hello world utilizando **Arduino UNO, display LCD I2C** e alguns jumpers.
-> Caso não tenha os componentes necessários, você pode usar arduino sem ter arduino. 
+![Badge de Status](https://img.shields.io/badge/status-Desenvolvido-yellow)
 
-<br>
-🎬 Youtube: <a href="https://github.com/user-attachments/assets/19a476a7-41af-4f36-bb9d-0580eed1716b">Use um Arduino sem ter Arduino!</a>
-<br> <sub> Spoiler: Usando simuladores, como o TkinkerCad</sub>
-
-<br>
+> Projetinho para printar "hello world" com **Arduino Uno, display LCD I2C** e alguns jumpers.
 <br>
 
-## 🧩 Componentes
+#### ⚠️ Não têm os componentes?! Está tudo bem! Você pode usar arduino sem ter arduino com simuladores, como o TinkerCad.
+> 🔗 Simulador TinkerCad: <a href="https://www.tinkercad.com/things/lV89E6xl6VW-hello-world">Projeto no simulador</a> <br>
+> 🎬 Youtube: <a href="https://github.com/user-attachments/assets/19a476a7-41af-4f36-bb9d-0580eed1716b">Use um Arduino sem ter Arduino!</a>
 <br>
 
+# 🧩 Componentes
+<br>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/da4df6c1-4798-4432-bfb0-ef77423ed374" width="500">
+</div>
+<br><br>
+Abaixo temos uma tabela detalhando os componentes utilizados:
+<br><br>
 
-![image](https://github.com/user-attachments/assets/c4c1b0b4-2cbd-434d-aaea-6fd222ad98b8)
 
+| Componente        | Descrição                                                              | Porta do Arduino         |
+|-------------------|------------------------------------------------------------------------|---------------------------|
+| Arduino Uno       | Microcontroladora principal do projeto                                 | -                         |
+| Display LCD I2C   | Display LCD 16x2 com interface I2C. Exibe a mensagem "Hello, World"    | GND → GND <br> VCC → 5V <br> SDA → A4  <br> SCL → A5   |
 
-### Microcontroladora
-Para esse projeto vamos utilizar o Arduino Uno. 
-
-### Display LCD I2C
-O display LCD com módulo integrado I2C vai ser responsável por imprimir na tela a famossissima frase "Hello, World". 
+<br>
