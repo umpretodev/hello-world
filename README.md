@@ -9,7 +9,7 @@
 > 🎬 Youtube: <a href="https://github.com/user-attachments/assets/19a476a7-41af-4f36-bb9d-0580eed1716b">Use um Arduino sem ter Arduino!</a>
 <br>
 
-# 🧩 Componentes
+# 🧩 Hardware
 <br>
 <br>
 <div align="center">
@@ -25,4 +25,24 @@ Abaixo temos uma tabela detalhando os componentes utilizados:
 | Arduino Uno       | Microcontroladora principal do projeto                                 | -                         |
 | Display LCD I2C   | Display LCD 16x2 com interface I2C. Exibe a mensagem "Hello, World"    | GND → GND <br> VCC → 5V <br> SDA → A4  <br> SCL → A5   |
 
+<br>
+
+
+# 🧩 Arquitetura
+
+``` text
+📁 include
+├── 📝 header.hpp # header com as impotações utilizadas em src/main.cpp
+│
+├── 📁 lib
+|   └── 📁 LcdController
+│        └── 📝 LcdController.cpp  # Implementações do cabeçado (LcdController.hpp)
+|        └── 📝 LcdController.hpp  # Cabeçalhos da classe e métodos (public and private)
+│
+└── 📝 main.cpp         # Arquivo principal para o compilador
+└── ⚙️ cMakeList.txt    # Configuração para o compilar
+└── 👾 .gitignore       # Diretório/arquivos que não precisam ser commitados
+
+
+```
 <br>
